@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interactive Navigation Menu</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Lilita+One&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+<link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+/>
+<link rel="stylesheet" href="./css/main.css">
+</head>
+<body>
+    <header>
+        <a href="/" class="logo">Journey</a>
+        <ul class="nav">
+            <li><a href="#">Destination</a></li>
+            <li><a href="#">Deals</a></li>
+            <li><a href="#">Special Offers</a></li>
+            <li><a href="#">Contact Us</a></li>
+            <li class="booking">
+                <a href="#">Booking<ion-icon name="add-outline"></ion-icon></a>
+            </li>
+        </ul>
+        <a href="#" class="menu" onclick="toggleMenu();"><ion-icon name="grid-outline"></ion-icon></a>
+    </header>
+    <ul class="nav-mobile">
+        <li><a href="#">Destination</a></li>
+        <li><a href="#">Deals</a></li>
+        <li><a href="#">Special Offers</a></li>
+        <li><a href="#">Contact Us</a></li>
+        <li>
+            <a href="#">Booking<ion-icon name="add-outline"></ion-icon></a>
+        </li>
+    </ul>
+
+    <div class="swiper banner-swiper">
+        <!-- Additional required wrapper -->
+        <div class="swiper-wrapper">
+          <!-- Slides -->
+          <div class="swiper-slide">
+            <div class="banner">
+                <img src="https://crazyhodophile.in/wp-content/uploads/2020/07/Hawa-Mahal-2048x1365.jpg" alt="">
+                <div class="shade">
+                    <!-- <img src="https://clipartspub.com/images/oval-clipart-ellipse.png" alt="" class="map"> --> -->
+                </div>
+                <div class="drop">
+                    <video src="16646786-hd_1080_1920_30fps.mp4" loop autoplay muted></video>
+                </div>
+                <div class="content-left">
+                    <h1>Ind</h1>
+                    <div class="description">
+                        <h3>Discover India</h3>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cum quis nisi modi amet excepturi esse dignissimos nam reprehenderit praesentium suscipit.
+                        </p>
+                        <a href="#">Start Now</a>
+                    </div>
+                </div>
+                <div class="content-right">
+                    <h1>i<span></span>a</h1>
+                    <p class="text-side">Welcome to India</p>
+                </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="banner">
+                <img src="http://www.hdwallpapers.in/walls/taj_mahal_india_hdr-wide.jpg" alt="">
+                <div class="shade">
+                    <!-- <img src="https://clipartspub.com/images/oval-clipart-ellipse.png" alt="" class="map"> --> -->
+                </div>
+                <div class="drop">
+                    <video src="170609_C_Agra_040_1.mp4" loop autoplay muted></video>
+                </div>
+                <div class="content-left">
+                    <h1>Ind</h1>
+                    <div class="description">
+                        <h3>Discover India</h3>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cum quis nisi modi amet excepturi esse dignissimos nam reprehenderit praesentium suscipit.
+                        </p>
+                        <a href="#">Start Now</a>
+                    </div>
+                </div>
+                <div class="content-right">
+                    <h1>i<span></span>a</h1>
+                    <p class="text-side">Welcome to India</p>
+                </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="banner">
+            <img src="https://images.lonelyplanetitalia.it/uploads/gettyrf-827065008?q=80&p=slider&s=5595667a6e1e401506daa05413bd405b" alt="">
+            <div class="shade">
+                <!-- <img src="https://clipartspub.com/images/oval-clipart-ellipse.png" alt="" class="map"> -->
+            </div>
+            <div class="drop">
+                <video src="4685716-hd_1920_1080_30fps.mp4" loop autoplay muted></video>
+            </div>
+            <div class="content-left">
+                <h1>Ind</h1>
+                <div class="description">
+                    <h3>Discover India</h3>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cum quis nisi modi amet excepturi esse dignissimos nam reprehenderit praesentium suscipit.
+                    </p>
+                    <a href="#">Start Now</a>
+                </div>
+            </div>
+            <div class="content-right">
+                <h1>i<span></span>a</h1>
+                <p class="text-side">Welcome to India</p>
+            </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="banner">
+            <img src="https://www.thetripsuggest.com/wp-content/uploads/2022/09/Untitled-design-70.jpg" alt="">
+            <div class="shade">
+                <!-- <img src="https://clipartspub.com/images/oval-clipart-ellipse.png" alt="" class="map"> -->
+            </div>
+            <div class="drop">
+                <video src="12704070-hd_1080_1920_50fps.mp4" loop autoplay muted></video>
+            </div>
+            <div class="content-left">
+                <h1>Ind</h1>
+                <div class="description">
+                    <h3>Discover India</h3>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cum quis nisi modi amet excepturi esse dignissimos nam reprehenderit praesentium suscipit.
+                    </p>
+                    <a href="#">Start Now</a>
+                </div>
+            </div>
+            <div class="content-right">
+                <h1>i<span></span>a</h1>
+                <p class="text-side">Welcome to India</p>
+            </div>
+            </div>   
+          </div>
+        </div>
+        <div class="control">
+        <!-- If we need pagination -->
+        <div class="swiper-pagination"></div>
+        <!-- If we need navigation buttons -->
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-button-next"></div>
+        </div>
+      </div>
+      <footer>
+        <ul class="sci">
+            <li><a href=""><ion-icon name="logo-facebook"></ion-icon></a></li>
+            <li><a href=""><ion-icon name="logo-instagram"></ion-icon></a></li>
+            <li><a href=""><ion-icon name="logo-youtube"></ion-icon></a></li>
+            <li><a href="" class="share"><ion-icon name="share-social-outline"></ion-icon></a></li>
+        </ul>
+        <div class="ask-us">
+            <p>Ask Us</p>
+            <a href="#" class="chat"><ion-icon name="chatbubble-ellipses-outline"></ion-icon></a>
+        </div>
+      </footer>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+
+    <!-- Add some content to test scrolling -->
+    <div style="height: 2000px;"></div>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="./js/swiper.js"></script>
+    <script src="./js/script.js"></script>
+</body>
+</html>
